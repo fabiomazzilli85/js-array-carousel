@@ -41,5 +41,5 @@ let successiva = document.getElementsByClassName("item-active");
 });
 
 
-arrowElement.classList.add("nuovaClasse");
+// arrowElement.classList.add("nuovaClasse");
 // Ho aggiunto una classe con alcune prorietà CSS con JS.
