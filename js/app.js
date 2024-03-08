@@ -6,6 +6,10 @@ const imagesArray = [
     'img/05.webp',
 ];
 
+// Array
+
+
+let ciao
 const itemDOMElement = document.querySelector(".item-container"); 
 
 for (let index = 0; index < imagesArray.length; index ++ ) {
@@ -23,14 +27,19 @@ for (let index = 0; index < imagesArray.length; index ++ ) {
     itemDOMElement.innerHTML += slideItem;
 }
 
+// Ciclo For
+
+
 const arrowElement = document.querySelector('.arrow');
 
 document.getElementById("left").addEventListener("click", function (){
-    console.log("Left");
-
+let precedente =  document.getElementsByClassName("item");
 });
 
 document.getElementById("right").addEventListener("click", function (){
-    console.log("Right");
-
+let successiva = document.getElementsByClassName("item-active");
 });
+
+
+arrowElement.classList.add("nuovaClasse");
+// Ho aggiunto una classe con alcune prorietà CSS con JS.
