@@ -33,9 +33,21 @@ for (let index = 0; index < imagesArray.length; index ++ ) {
 
 const arrowElement = document.querySelector('.arrow');
 
-arrowElement.addEventListener('click', function() {
-    // La funzione da eseguire quando l'elemento con classe "arrow" viene cliccato.
-    
-    console.log('Ciao!');
-    // Puoi aggiungere altre azioni qui in risposta al clic
+document.getElementById("left").addEventListener("click", function (){
+    console.log("Ciao!");
+    // Il listener funziona correttamente: la console resituisce "Ciao" e non evidenzia messaggi di errore. 
 });
+
+
+
+document.getElementById("right").addEventListener("click", function (){
+    console.log("Hello!");
+    // Il listener funziona correttamente: la console resituisce "Hello" e non evidenzia messaggi di errore. 
+});
+
+// Causa dell'errore in "listener": aver inserito le icone all'interno della classe "item-container".
+
+// Prossimi steps: 
+// 1. Devo iniziare a lavorare con le due classi "item" (che ha proprietà "Display: None") e "item-active".
+    // Quando clicco sulla freccia destra, l'elemento 0 avrà la classe "item", l'elemento 1 avrà invece la classe "item-active".
+        // Come faccio a fare questo?
