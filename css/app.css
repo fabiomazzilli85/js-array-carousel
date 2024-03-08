@@ -31,8 +31,11 @@ position: relative;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px; /* Imposta la dimensione della freccia a tuo piacimento */
-    color: white;
+    font-size: 22px; /* Imposta la dimensione della freccia a tuo piacimento */
+    color: black;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: white;
 }
 
 .arrow-left {

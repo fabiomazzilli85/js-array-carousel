@@ -31,3 +31,11 @@ for (let index = 0; index < imagesArray.length; index ++ ) {
 
 }
 
+const arrowElement = document.querySelector('.arrow');
+
+arrowElement.addEventListener('click', function() {
+    // La funzione da eseguire quando l'elemento con classe "arrow" viene cliccato.
+    
+    console.log('Ciao!');
+    // Puoi aggiungere altre azioni qui in risposta al clic
+});
