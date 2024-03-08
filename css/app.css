@@ -1,17 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .container {
     max-width: 100%;
     height: 100vh;
 }
 
 .image-resize {
-    width: 800px;
+    width: 600px;
     aspect-ratio: 1/1;
     object-fit: cover; 
 }
 
 .item-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+position: relative;
+
+}
+
+.item {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px; /* Imposta la dimensione della freccia a tuo piacimento */
+    color: white;
+}
+
+.arrow-left {
+    left: 20px;
+}
+
+.arrow-right {
+    right:20px;
 }
