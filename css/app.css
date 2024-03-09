@@ -3,15 +3,12 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    height: 100vh;
-}
-
-.container {
+    align-items: center;
     height: 100vh;
 }
 
 .image-resize {
-    width: 600px;
+    width: 500px;
     aspect-ratio: 1/1;
     object-fit: cover; 
 }
@@ -45,9 +42,4 @@ body {
 
 .arrow-right {
     right:80px;
-}
-
-.bg-brown{
-    background-color: brown;
-    color: white;
 }
