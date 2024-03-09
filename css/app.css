@@ -20,6 +20,10 @@ body {
     position: relative;
 }
 
+.active {
+    display: block;
+}
+
 .item {
     display: none;
 }
