@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
     const imagesArray = [
         'img/01.webp',
         'img/02.webp',
@@ -50,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
         currentIndex = (currentIndex + 1) % imagesArray.length;
         showItem(currentIndex);
     });
-});
 // Ho creato due eventi "listener" distnti che fanno riferimento ai relativi id ("right" e "left", ovvero le freccine laterali). II "currentIndex" viene decrementato in "left" (per poi tornare al numero degli elementi presenti nell'Array) e aumentato in "right". 
 // Con showItem (fonte ChatGPT) aggiorno la visibilità degli elementi".
 
