@@ -1,4 +1,4 @@
-const imagesArray = [
+    const imagesArray = [
         'img/01.webp',
         'img/02.webp',
         'img/03.webp',
