@@ -1,4 +1,8 @@
-    const imagesArray = [
+let userResponse = prompt('Come ti chiami?');
+alert('Questo è il mio progetto, ' + userResponse);   
+   
+   
+   const imagesArray = [
         'img/01.webp',
         'img/02.webp',
         'img/03.webp',
@@ -61,6 +65,7 @@
         document.body.classList.toggle("changeAspect");
         
         element.textContent = "Adesso clicca sulle frecce laterali...";
+        console.log("E' tutta un'altra storia, vero?");
         
     }
     
@@ -73,4 +78,5 @@
     function functionArrowChange() {
         // Cambia il background della pagina
         this.classList.toggle("arrowChange");
+        console.log("Bravo, hai cliccato sulla freccia. Ho sempre saputo che potevi farcela.");
     }
