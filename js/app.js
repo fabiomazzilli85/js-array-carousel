@@ -1,5 +1,6 @@
 let userResponse = prompt('Come ti chiami?');
 alert('Questo è il mio progetto, ' + userResponse);   
+// Inserito un prompt e un alert che richiama il nome dell'utente richiesto precedentemente.
 
 
 const imagesArray = [
@@ -57,17 +58,20 @@ document.getElementById("right").addEventListener("click", function () {
 // Con showItem (fonte ChatGPT) aggiorno la visibilità degli elementi".
 
 // Il codice JS pare avere senso ma, purtroppo, non funziona correttamente. La console del browser non mostra segnali di errore, e questo è un bene, ma l'imagine non cambia quando clicco sulla freccina. 
+
+
 const element = document.getElementById("functionBg");
 element.addEventListener("click", functionBgColor);
 
 function functionBgColor() {
-    // Cambia il background della pagina
     document.body.classList.toggle("changeAspect");
     
     element.textContent = "Adesso clicca sulle frecce laterali...";
     console.log("E' tutta un'altra storia, vero?");
     
 }
+// Ho creato una costante e l'ho collegata all'Id dell'HTML. Ho agggiunto un "listener" con funzione denominata "functionBgColor". "functionBgColor" aggiunge una classe CSS e un "textContent" (oltre a un "console.log").
+
 
 const leftElement = document.getElementById("left");
 const rightElement = document.getElementById("right");
@@ -80,3 +84,4 @@ function functionArrowChange() {
     this.classList.toggle("arrowChange");
     console.log("Bravo, hai cliccato sulla freccia. Ho sempre saputo che potevi farcela.");
 }
+// Ho creato due costanti e le ho richiamate all'Id "left" e "right". Ho aggiunto un "listener" con funzione denominata "functionArrowChange". Questa funzione aggiunge una classe e stampa in "console.log" un messaggio scherzoso.
