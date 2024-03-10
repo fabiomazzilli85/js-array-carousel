@@ -1,5 +1,5 @@
-let userResponse = prompt('Come ti chiami?');
-alert('Questo è il mio progetto, ' + userResponse);   
+let userName = prompt('Come ti chiami?');
+alert('Questo è il mio progetto, ' + userName);   
 // Inserito un prompt e un alert che richiama il nome dell'utente richiesto precedentemente.
 
 
