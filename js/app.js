@@ -59,8 +59,8 @@
     function functionBgColor() {
         // Cambia il background della pagina
         document.body.classList.toggle("changeAspect");
-
-           element.textContent = "Adesso clicca sulle frecce laterali...";
+        
+        element.textContent = "Adesso clicca sulle frecce laterali...";
         
     }
     
